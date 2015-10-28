@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='MyApp'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body ng-controller='StarWars' background='http://www.gifs-animados.es/wallpapers/wallpapers/espacio/wallpaper-espacio-608270.JPG'>
+    <div class="container border">
+        <dv class="row"></dv>
+        <div class='col-md-12'>
+            <h1 class='text-center color title'>{{ title }}</h1>
+        </div>
+        <div class='col-md-12'>
+            <p class='text-center color opening'>
+                {{ openingCrawl }}
+            </p>
+        </div>
+        <div class='col-md-12'>
+            <h2 class='text-center color director'>{{ director }}</h2>
+        </div>
+        <div class='col-md-12'>
+            <h4 class='text-center color producer'>{{ producer }}</h4>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js">
+    </script>
+    <script src='app.js'></script>
+</body>
+
+</html>

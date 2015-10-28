@@ -1,0 +1,14 @@
+.color {
+    color: #FFCC00;
+}
+
+.opening {
+    font-family: Franklin Gothic;
+    font-size: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.title {
+    font-family: Franklin Gothic Medium Condensed;
+}
